@@ -2,4 +2,4 @@
 
 Some [UI-Kit](https://getuikit.com/) snippets for Nova.
 
-The extension provides autocompletion for `HTML` (`CSS` utility classes).
+The extension provides autocompletion for `HTML` (`CSS` classes).
