@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+  <provider>
+    <syntax>html</syntax>
+    <selector>*:not(comment)</selector>
+    <expression>(\b|-)[a-zA-Z0-9-]*</expression>
+    <set>html.completions</set>
+  </provider>
+
+  <set name="html.completions" symbol="class">
+    <completion string="uk-h1"/>
+    <completion string="uk-h2"/>
+    <completion string="uk-h3"/>
+    <completion string="uk-h4"/>
+    <completion string="uk-h5"/>
+    <completion string="uk-h6"/>
+    <completion string="uk-heading-small"/>
+    <completion string="uk-heading-medium"/>
+    <completion string="uk-heading-large"/>
+    <completion string="uk-heading-xlarge"/>
+    <completion string="uk-heading-2xlarge"/>
+    <completion string="uk-heading-3xlarge"/>
+    <completion string="uk-hr"/>
+    <completion string="uk-heading-divider"/>
+    <completion string="uk-heading-bullet"/>
+    <completion string="uk-heading-line"/>
+    <completion string="uk-divider-icon"/>
+    <completion string="uk-divider-small"/>
+    <completion string="uk-list"/>
+    <completion string="uk-list-disc"/>
+    <completion string="uk-list-circle"/>
+    <completion string="uk-list-square"/>
+    <completion string="uk-list-decimal"/>
+    <completion string="uk-list-hyphen"/>
+    <completion string="uk-list-circle"/>
+    <completion string="uk-list-muted"/>
+    <completion string="uk-list-emphasis"/>
+    <completion string="uk-list-primary"/>
+    <completion string="uk-list-secondary"/>
+    <completion string="uk-list-divider"/>
+    <completion string="uk-list-striped"/>
+    <completion string="uk-list-large"/>
+    <completion string="uk-list-collapse"/>
+    <completion string="uk-description-list"/>
+    <completion string="uk-description-list-divider"/>
+    <completion string="uk-table"/>
+    <completion string="uk-table-middle"/>
+    <completion string="uk-table-divider"/>
+    <completion string="uk-table-striped"/>
+    <completion string="uk-table-hover"/>
+    <completion string="uk-active"/>
+
+    <completion string="uk-table-small"/>
+    <completion string="uk-table-large"/>
+    <completion string="uk-table-justify"/>
+    <completion string="uk-table-shrink"/>
+    <completion string="uk-table-expand"/>
+    <completion string="uk-table-link"/>
+    <completion string="uk-table-small"/>
+
+    <completion string="uk-section"/>
+    <completion string="uk-section-xsmall"/>
+    <completion string="uk-section-small"/>
+    <completion string="uk-section-large"/>
+    <completion string="uk-section-xlarge"/>
+    <completion string="uk-section-default"/>
+    <completion string="uk-section-muted"/>
+    <completion string="uk-section-primary"/>
+    <completion string="uk-section-secondary"/>
+    <completion string="uk-container"/>
+    <completion string="uk-container-xsmall"/>
+    <completion string="uk-container-small"/>
+    <completion string="uk-container-large"/>
+    <completion string="uk-container-xlarge"/>
+    <completion string="uk-container-expand"/>
+    <completion string="uk-container-expand-left"/>
+    <completion string="uk-container-expand-right"/>
+    
+    <completion string="uk-sticky"/>
+    <completion string="uk-sticky-fixed"/>
+    <completion string="uk-offcanvas-bar"/>
+    <completion string="uk-offcanvas-reveal"/>
+    <completion string="uk-offcanvas-close"/>
+    <completion string="uk-offcanvas-overlay"/>
+    <completion string="uk-offcanvas-page"/>
+    <completion string="uk-offcanvas-container"/>
+    
+    <completion string="uk-grid"/>
+    <completion string="uk-grid-small"/>
+    <completion string="uk-grid-medium"/>
+    <completion string="uk-grid-large"/>
+    <completion string="uk-grid-collapse"/>
+    <completion string="uk-grid-divider"/>
+
+    <completion string="uk-nav"/>
+    <completion string="uk-nav-sub"/>
+    <completion string="uk-nav-header"/>
+    <completion string="uk-nav-primary"/>
+    <completion string="uk-nav-secondary"/>
+    <completion string="uk-nav-subtitle"/>
+    <completion string="uk-nav-header"/>
+    <completion string="uk-nav-divider"/>
+    <completion string="uk-nav-center"/>
+    
+    <completion string="uk-navbar"/>
+    <completion string="uk-navbar-container"/>
+    <completion string="uk-navbar-left"/>
+    <completion string="uk-navbar-right"/>
+    <completion string="uk-navbar-center"/>
+    <completion string="uk-navbar-center-left"/>
+    <completion string="uk-navbar-center-right"/>
+    <completion string="uk-navbar-nav"/>
+    <completion string="uk-navbar-item"/>
+    <completion string="uk-navbar-toggle"/>
+    <completion string="uk-navbar-parent-icon"/>
+    <completion string="uk-navbar-subtitle"/>
+
+
+    <completion string="uk-dropdown"/>
+
+    <completion string="uk-subnav"/>
+    <completion string="uk-subnav-divider"/>
+    <completion string="uk-subnav-pill"/>
+
+    <completion string="uk-breadcrumb"/>
+    <completion string="uk-pagination"/>
+
+
+    <completion string="uk-tab"/>
+    <completion string="uk-tab-bottom"/>
+    <completion string="uk-tab-left"/>
+    <completion string="uk-tab-right"/>
+
+    <completion string="uk-width-1-1"/>
+    <completion string="uk-width-1-2"/>
+    <completion string="uk-width-1-3"/>
+    <completion string="uk-width-2-3"/>
+    <completion string="uk-width-1-4"/>
+    <completion string="uk-width-3-4"/>
+    <completion string="uk-width-1-5"/>
+    <completion string="uk-width-2-5"/>
+    <completion string="uk-width-3-5"/>
+    <completion string="uk-width-4-5"/>
+    <completion string="uk-width-1-6"/>
+    <completion string="uk-width-5-6"/>
+    <completion string="uk-width-auto"/>
+    <completion string="uk-width-expand"/>
+    <completion string="uk-width-small"/>
+    <completion string="uk-width-medium"/>
+    <completion string="uk-width-large"/>
+    <completion string="uk-width-xlarge"/>
+    <completion string="uk-width-2xlarge"/>
+    
+    <completion string="uk-width-1-1@s"/>
+    <completion string="uk-width-1-2@s"/>
+    <completion string="uk-width-1-3@s"/>
+    <completion string="uk-width-2-3@s"/>
+    <completion string="uk-width-1-4@s"/>
+    <completion string="uk-width-3-4@s"/>
+    <completion string="uk-width-1-5@s"/>
+    <completion string="uk-width-2-5@s"/>
+    <completion string="uk-width-3-5@s"/>
+    <completion string="uk-width-4-5@s"/>
+    <completion string="uk-width-1-6@s"/>
+    <completion string="uk-width-5-6@s"/>
+    <completion string="uk-width-auto@s"/>
+    <completion string="uk-width-expand@s"/>
+    <completion string="uk-width-small@s"/>
+    <completion string="uk-width-medium@s"/>
+    <completion string="uk-width-large@s"/>
+    <completion string="uk-width-xlarge@s"/>
+    <completion string="uk-width-2xlarge@s"/>
+    
+    <completion string="uk-width-1-1@m"/>
+    <completion string="uk-width-1-2@m"/>
+    <completion string="uk-width-1-3@m"/>
+    <completion string="uk-width-2-3@m"/>
+    <completion string="uk-width-1-4@m"/>
+    <completion string="uk-width-3-4@m"/>
+    <completion string="uk-width-1-5@m"/>
+    <completion string="uk-width-2-5@m"/>
+    <completion string="uk-width-3-5@m"/>
+    <completion string="uk-width-4-5@m"/>
+    <completion string="uk-width-1-6@m"/>
+    <completion string="uk-width-5-6@m"/>
+    <completion string="uk-width-auto@m"/>
+    <completion string="uk-width-expand@m"/>
+    <completion string="uk-width-small@m"/>
+    <completion string="uk-width-medium@m"/>
+    <completion string="uk-width-large@m"/>
+    <completion string="uk-width-xlarge@m"/>
+    <completion string="uk-width-2xlarge@m"/>
+    
+    <completion string="uk-width-1-1@l"/>
+    <completion string="uk-width-1-2@l"/>
+    <completion string="uk-width-1-3@l"/>
+    <completion string="uk-width-2-3@l"/>
+    <completion string="uk-width-1-4@l"/>
+    <completion string="uk-width-3-4@l"/>
+    <completion string="uk-width-1-5@l"/>
+    <completion string="uk-width-2-5@l"/>
+    <completion string="uk-width-3-5@l"/>
+    <completion string="uk-width-4-5@l"/>
+    <completion string="uk-width-1-6@l"/>
+    <completion string="uk-width-5-6@l"/>
+    <completion string="uk-width-auto@l"/>
+    <completion string="uk-width-expand@l"/>
+    <completion string="uk-width-small@l"/>
+    <completion string="uk-width-medium@l"/>
+    <completion string="uk-width-large@l"/>
+    <completion string="uk-width-xlarge@l"/>
+    <completion string="uk-width-2xlarge@l"/>
+
+    <completion string="uk-width-1-1@xl"/>
+    <completion string="uk-width-1-2@xl"/>
+    <completion string="uk-width-1-3@xl"/>
+    <completion string="uk-width-2-3@xl"/>
+    <completion string="uk-width-1-4@xl"/>
+    <completion string="uk-width-3-4@xl"/>
+    <completion string="uk-width-1-5@xl"/>
+    <completion string="uk-width-2-5@xl"/>
+    <completion string="uk-width-3-5@xl"/>
+    <completion string="uk-width-4-5@xl"/>
+    <completion string="uk-width-1-6@xl"/>
+    <completion string="uk-width-5-6@xl"/>
+    <completion string="uk-width-auto@xl"/>
+    <completion string="uk-width-expand@xl"/>
+    <completion string="uk-width-small@xl"/>
+    <completion string="uk-width-medium@xl"/>
+    <completion string="uk-width-large@xl"/>
+    <completion string="uk-width-xlarge@xl"/>
+    <completion string="uk-width-2xlarge@xl"/>
+
+
+    <completion string="uk-child-width-1-1"/>
+    <completion string="uk-child-width-1-2"/>
+    <completion string="uk-child-width-1-3"/>
+    <completion string="uk-child-width-1-4"/>
+    <completion string="uk-child-width-3-4"/>
+    <completion string="uk-child-width-1-5"/>
+    <completion string="uk-child-width-2-5"/>
+    <completion string="uk-child-width-3-5"/>
+    <completion string="uk-child-width-4-5"/>
+    <completion string="uk-child-width-1-6"/>
+    <completion string="uk-child-width-5-6"/>
+    <completion string="uk-child-width-auto"/>
+    <completion string="uk-child-width-expand"/>
+
+    <completion string="uk-child-width-1-1@s"/>
+    <completion string="uk-child-width-1-2@s"/>
+    <completion string="uk-child-width-1-3@s"/>
+    <completion string="uk-child-width-1-4@s"/>
+    <completion string="uk-child-width-3-4@s"/>
+    <completion string="uk-child-width-1-5@s"/>
+    <completion string="uk-child-width-2-5@s"/>
+    <completion string="uk-child-width-3-5@s"/>
+    <completion string="uk-child-width-4-5@s"/>
+    <completion string="uk-child-width-1-6@s"/>
+    <completion string="uk-child-width-5-6@s"/>
+    <completion string="uk-child-width-auto@s"/>
+    <completion string="uk-child-width-expand@s"/>
+
+    <completion string="uk-child-width-1-1@m"/>
+    <completion string="uk-child-width-1-2@m"/>
+    <completion string="uk-child-width-1-3@m"/>
+    <completion string="uk-child-width-1-4@m"/>
+    <completion string="uk-child-width-3-4@m"/>
+    <completion string="uk-child-width-1-5@m"/>
+    <completion string="uk-child-width-2-5@m"/>
+    <completion string="uk-child-width-3-5@m"/>
+    <completion string="uk-child-width-4-5@m"/>
+    <completion string="uk-child-width-1-6@m"/>
+    <completion string="uk-child-width-5-6@m"/>
+    <completion string="uk-child-width-auto@m"/>
+    <completion string="uk-child-width-expand@m"/>
+
+    <completion string="uk-child-width-1-1@l"/>
+    <completion string="uk-child-width-1-2@l"/>
+    <completion string="uk-child-width-1-3@l"/>
+    <completion string="uk-child-width-1-4@l"/>
+    <completion string="uk-child-width-3-4@l"/>
+    <completion string="uk-child-width-1-5@l"/>
+    <completion string="uk-child-width-2-5@l"/>
+    <completion string="uk-child-width-3-5@l"/>
+    <completion string="uk-child-width-4-5@l"/>
+    <completion string="uk-child-width-1-6@l"/>
+    <completion string="uk-child-width-5-6@l"/>
+    <completion string="uk-child-width-auto@l"/>
+    <completion string="uk-child-width-expand@l"/>
+
+    <completion string="uk-child-width-1-1@xl"/>
+    <completion string="uk-child-width-1-2@xl"/>
+    <completion string="uk-child-width-1-3@xl"/>
+    <completion string="uk-child-width-1-4@xl"/>
+    <completion string="uk-child-width-3-4@xl"/>
+    <completion string="uk-child-width-1-5@xl"/>
+    <completion string="uk-child-width-2-5@xl"/>
+    <completion string="uk-child-width-3-5@xl"/>
+    <completion string="uk-child-width-4-5@xl"/>
+    <completion string="uk-child-width-1-6@xl"/>
+    <completion string="uk-child-width-5-6@xl"/>
+    <completion string="uk-child-width-auto@xl"/>
+    <completion string="uk-child-width-expand@xl"/>
+
+
+    <completion string="uk-width-max-content"/>
+    <completion string="uk-width-min-content"/>
+
+    <completion string="uk-slidenav"/>
+    <completion string="uk-dotnav"/>
+    <completion string="uk-dotnav-vertical"/>
+
+    <completion string="uk-thumbnav"/>
+    <completion string="uk-thumbnav-vertical"/>
+
+
+    <completion string="uk-iconnav"/>
+    <completion string="uk-iconnav-vertical"/>
+
+    <completion string="uk-dropdown"/>
+    <completion string="uk-dropdown-large"/>
+    <completion string="uk-dropdown-dropbar"/>
+    <completion string="uk-dropdown-dropbar-large"/>
+    <completion string="uk-dropdown-nav"/>
+
+    <completion string="uk-lightbox"/>
+    <completion string="uk-lightbox-page"/>
+    <completion string="uk-lightbox-items"/>
+    <completion string="uk-lightbox-toolbar"/>
+    <completion string="uk-lightbox-toolbar-icon"/>
+    <completion string="uk-lightbox-button"/>
+    <completion string="uk-lightbox-caption"/>
+    <completion string="uk-lightbox-iframe"/>
+
+    <completion string="uk-animation-fade"/>
+    <completion string="uk-animation-scale-up"/>
+    <completion string="uk-animation-scale-down"/>
+    <completion string="uk-animation-slide-top"/>
+    <completion string="uk-animation-slide-bottom"/>
+    <completion string="uk-animation-slide-left"/>
+    <completion string="uk-animation-slide-right"/>
+
+
+    <completion string="uk-animation-slide-top-small"/> 
+    <completion string="uk-animation-slide-bottom-small"/>
+    <completion string="uk-animation-slide-left-small"/>
+    <completion string="uk-animation-slide-right-small"/>
+
+    <completion string="uk-animation-slide-top-medium"/>
+    <completion string="uk-animation-slide-bottom-medium"/>
+    <completion string="uk-animation-slide-left-medium"/>
+    <completion string="uk-animation-slide-right-medium"/>
+
+    <completion string="uk-height-1-1"/>
+    <completion string="uk-height-viewport"/>
+    <completion string="uk-height-viewport-2"/>
+    <completion string="uk-height-viewport-3"/>
+    <completion string="uk-hight-viewport-4"/>
+    
+    <completion string="uk-height-small"/>
+    <completion string="uk-height-medium"/>
+    <completion string="uk-height-large"/>
+    <completion string="uk-height-max-small"/>
+    <completion string="uk-height-max-medium"/>
+    <completion string="uk-height-max-large"/>
+ 
+    <completion string="uk-text-lead"/>
+    <completion string="uk-text-meta"/>
+    
+    <completion string="uk-text-small"/>
+    <completion string="uk-text-large"/>
+    <completion string="uk-text-default"/>
+    
+    
+    <completion string="uk-text-light"/>
+    <completion string="uk-text-normal"/>
+    <completion string="uk-text-bold"/>
+    <completion string="uk-text-lighter"/>
+    <completion string="uk-text-bolder"/>
+    
+    
+    <completion string="uk-text-italic"/>
+    <completion string="uk-text-capitalize"/>
+    <completion string="uk-text-uppercase"/>
+    <completion string="uk-text-lowercase"/>
+    
+    <completion string="uk-text-decoration-none"/>
+    <completion string="uk-text-muted"/>
+    <completion string="uk-text-emphasis"/>
+    <completion string="uk-text-primary"/>
+    <completion string="uk-text-secondary"/>
+    <completion string="uk-text-success"/>
+    <completion string="uk-text-warning"/>
+    <completion string="uk-text-danger"/>
+    <completion string="uk-text-background"/>
+    
+    <completion string="uk-text-left"/>
+    <completion string="uk-text-right"/>
+    <completion string="uk-text-center"/>
+    <completion string="uk-text-justify"/>
+    <completion string="uk-text-left@s"/>
+    <completion string="uk-text-right@s"/>
+    <completion string="uk-text-center@s"/>
+    <completion string="uk-text-left@m"/>
+    <completion string="uk-text-right@m"/>
+    <completion string="uk-text-center@m"/>
+    <completion string="uk-text-left@l"/>
+    <completion string="uk-text-right@l"/>
+    <completion string="uk-text-center@l"/>
+    <completion string="uk-text-left@xl"/>
+    <completion string="uk-text-right@xl"/>
+    <completion string="uk-text-center@xl"/>
+    
+    <completion string="uk-text-top"/>
+    <completion string="uk-text-middle"/>
+    <completion string="uk-text-bottom"/>
+    <completion string="uk-text-baseline"/>
+    <completion string="uk-text-nowrap"/>
+    <completion string="uk-text-truncate"/>
+    <completion string="uk-text-break"/>
+
+    
+    <completion string="uk-column-divider"/>
+    <completion string="uk-column-span"/>
+
+    <completion string="uk-column-1-2"/>
+    <completion string="uk-column-1-3"/>
+    <completion string="uk-column-1-4"/>
+    <completion string="uk-column-1-5"/>
+    <completion string="uk-column-1-6"/>
+    <completion string="uk-column-1-2@s"/>
+    <completion string="uk-column-1-3@s"/>
+    <completion string="uk-column-1-4@s"/>
+    <completion string="uk-column-1-5@s"/>
+    <completion string="uk-column-1-6@s"/>
+    <completion string="uk-column-1-2@m"/>
+    <completion string="uk-column-1-3@m"/>
+    <completion string="uk-column-1-4@m"/>
+    <completion string="uk-column-1-5@m"/>
+    <completion string="uk-column-1-6@m"/>
+    <completion string="uk-column-1-2@l"/>
+    <completion string="uk-column-1-3@l"/>
+    <completion string="uk-column-1-4@l"/>
+    <completion string="uk-column-1-5@l"/>
+    <completion string="uk-column-1-6@l"/>
+    <completion string="uk-column-1-2@xl"/>
+    <completion string="uk-column-1-3@xl"/>
+    <completion string="uk-column-1-4@xl"/>
+    <completion string="uk-column-1-5@xl"/>
+    <completion string="uk-column-1-6@xl"/>
+
+    <completion string="uk-cover-container"/>
+    <completion string="uk-background-default"/>
+    <completion string="uk-background-muted"/>
+    <completion string="uk-background-primary"/>
+    <completion string="uk-background-secondary"/>
+    <completion string="uk-background-cover"/>
+    <completion string="uk-background-contain"/>
+    <completion string="uk-background-width-1-1"/>
+    <completion string="uk-background-height-1-1"/>
+    <completion string="uk-background-top-left"/>
+    <completion string="uk-background-top-center"/>
+    <completion string="uk-background-top-right"/>
+    <completion string="uk-background-center-left"/>
+    <completion string="uk-background-center-center"/>
+    <completion string="uk-background-center-right"/>
+    <completion string="uk-background-bottom-left"/>
+    <completion string="uk-background-bottom-center"/>
+    <completion string="uk-background-bottom-right"/>
+    <completion string="uk-background-norepeat"/>
+    <completion string="uk-background-fixed"/>
+    <completion string="uk-background-image"/>
+    <completion string="uk-background-image@s"/>
+    <completion string="uk-background-image@m"/>
+    <completion string="uk-background-image@l"/>
+    <completion string="uk-background-image@xl"/>
+
+    <completion string="uk-background-blend-multiply"/>
+    <completion string="uk-background-blend-screen"/>
+    <completion string="uk-background-blend-overlay"/>
+    <completion string="uk-background-blend-darken"/>
+    <completion string="uk-background-blend-lighten"/>
+    <completion string="uk-background-blend-color-dodge"/>
+    <completion string="uk-background-blend-color-burn"/>
+    <completion string="uk-background-blend-hard-light"/>
+    <completion string="uk-background-blend-soft-light"/>
+    <completion string="uk-background-blend-difference"/>
+    <completion string="uk-background-blend-exclusion"/>
+    <completion string="uk-background-blend-hue"/>
+    <completion string="uk-background-blend-saturation"/>
+    <completion string="uk-background-blend-color"/>
+    <completion string="uk-background-blend-luminosity"/>
+
+    <completion string="uk-align-center"/>
+    <completion string="uk-align-left"/>
+    <completion string="uk-align-right"/>
+    <completion string="uk-align-left@s"/>
+    <completion string="uk-align-right@s"/>
+    <completion string="uk-align-left@m"/>
+    <completion string="uk-align-right@m"/>
+    <completion string="uk-align-left@l"/>
+    <completion string="uk-align-right@l"/>
+    <completion string="uk-align-left@xl"/>
+    <completion string="uk-align-right@xl"/>
+
+    <completion string="uk-panel"/>
+    <completion string="uk-panel-scrollabl"/>
+    <completion string="uk-clearfix"/>
+
+    <completion string="uk-float-left"/>
+    <completion string="uk-float-right"/>
+    <completion string="uk-overflow-hidden"/>
+    <completion string="uk-overflow-auto"/>
+    <completion string="uk-box-sizing-content"/>
+    <completion string="uk-box-sizing-border"/>
+
+    <completion string="uk-resize"/>
+    <completion string="uk-resize-horizontal"/>
+    <completion string="uk-resize-vertical"/>
+    <completion string="uk-display-block"/>
+    <completion string="uk-display-inline"/>
+    <completion string="uk-display-inline-block"/>
+    <completion string="uk-inline-clip"/>
+
+    <completion string="uk-preserve-width"/>
+    <completion string="uk-responsive-width"/>
+    <completion string="uk-responsive-height"/>
+
+    <completion string="uk-object-cover"/>
+    <completion string="uk-object-contain"/>
+    <completion string="uk-object-fill"/>
+    <completion string="uk-object-none"/>
+    <completion string="uk-object-scale-down"/>
+    <completion string="uk-object-top-left"/>
+    <completion string="uk-object-top-center"/>
+    <completion string="uk-object-top-right"/>
+    <completion string="uk-object-center-left"/>
+    <completion string="uk-object-center-center"/>
+    <completion string="uk-object-center-right"/>
+    <completion string="uk-object-bottom-left"/>
+    <completion string="uk-object-bottom-center"/>
+    <completion string="uk-object-bottom-right"/>
+
+    <completion string="uk-border-circle"/>
+    <completion string="uk-border-pill"/>
+    <completion string="uk-border-rounded"/>
+    
+    <completion string="uk-box-shadow-small"/>
+    <completion string="uk-box-shadow-medium"/>
+    <completion string="uk-box-shadow-large"/>
+    <completion string="uk-box-shadow-xlarge"/>
+    <completion string="uk-box-shadow-hover-small"/>
+    <completion string="uk-box-shadow-hover-medium"/>
+    <completion string="uk-box-shadow-hover-large"/>
+    <completion string="uk-box-shadow-hover-xlarge"/>
+    <completion string="uk-box-shadow-bottom"/>
+    <completion string="uk-box-shadow-bottom"/>
+
+    <completion string="uk-dropcap"/>
+    <completion string="uk-logo"/>
+    <completion string="uk-disabled"/>
+    <completion string="uk-drag"/>
+
+    <completion string="uk-dragover"/>
+    <completion string="uk-blend-multiply"/>
+    <completion string="uk-blend-screen"/>
+    <completion string="uk-blend-overlay"/>
+    <completion string="uk-blend-darken"/>
+    <completion string="uk-blend-lighten"/>
+    <completion string="uk-blend-color-dodge"/>
+    <completion string="uk-blend-color-burn"/>
+    <completion string="uk-blend-hard-light"/>
+    <completion string="uk-blend-soft-light"/>
+    <completion string="uk-blend-difference"/>
+    <completion string="uk-blend-exclusion"/>
+    <completion string="uk-blend-hue"/>
+    <completion string="uk-blend-saturation"/>
+    <completion string="uk-blend-color"/>
+    <completion string="uk-blend-luminosity"/>
+
+    <completion string="uk-transform-center"/>
+
+    <completion string="uk-transform-origin-top-left"/>
+    <completion string="uk-transform-origin-top-center"/>
+    <completion string="uk-transform-origin-top-right"/>
+    <completion string="uk-transform-origin-center-left"/>
+    <completion string="uk-transform-origin-center-right"/>
+    <completion string="uk-transform-origin-bottom-left"/>
+    <completion string="uk-transform-origin-bottom-center"/>
+    <completion string="uk-transform-origin-bottom-right"/>
+
+    <completion string="uk-flex"/>
+    <completion string="uk-flex-inline"/>
+
+    <completion string="uk-flex-left"/>
+    <completion string="uk-flex-center"/>
+    <completion string="uk-flex-right"/>
+    <completion string="uk-flex-between"/>
+    <completion string="uk-flex-around"/>
+    <completion string="uk-flex-left@s"/>
+    <completion string="uk-flex-center@s"/>
+    <completion string="uk-flex-right@s"/>
+    <completion string="uk-flex-between@s"/>
+    <completion string="uk-flex-around@s"/>
+    <completion string="uk-flex-left@m"/>
+    <completion string="uk-flex-center@m"/>
+    <completion string="uk-flex-right@m"/>
+    <completion string="uk-flex-between@m"/>
+    <completion string="uk-flex-around@m"/>
+    <completion string="uk-flex-left@l"/>
+    <completion string="uk-flex-center@l"/>
+    <completion string="uk-flex-right@l"/>
+    <completion string="uk-flex-between@l"/>
+    <completion string="uk-flex-around@l"/>
+    <completion string="uk-flex-left@xl"/>
+    <completion string="uk-flex-center@xl"/>
+    <completion string="uk-flex-right@xl"/>
+    <completion string="uk-flex-between@xl"/>
+    <completion string="uk-flex-around@xl"/>
+
+    <completion string="uk-flex-stretch"/>
+    <completion string="uk-flex-top"/>
+    <completion string="uk-flex-middle"/>
+    <completion string="uk-flex-bottom"/>
+    <completion string="uk-flex-row"/>
+    <completion string="uk-flex-row-reverse"/>
+    <completion string="uk-flex-column"/>
+    <completion string="uk-flex-column-reverse"/>
+    <completion string="uk-flex-nowrap"/>
+    <completion string="uk-flex-wrap"/>
+    <completion string="uk-flex-wrap-reverse"/>
+    <completion string="uk-flex-wrap-stretch"/>
+    <completion string="uk-flex-wrap-top"/>
+    <completion string="uk-flex-wrap-middle"/>
+    <completion string="uk-flex-wrap-bottom"/>
+    <completion string="uk-flex-wrap-between"/>
+    <completion string="uk-flex-wrap-around"/>
+
+    <completion string="uk-flex-first"/>
+    <completion string="uk-flex-last"/>
+    <completion string="uk-flex-first@s"/>
+    <completion string="uk-flex-last@s"/>
+    <completion string="uk-flex-first@m"/>
+    <completion string="uk-flex-last@m"/>
+    <completion string="uk-flex-first@l"/>
+    <completion string="uk-flex-last@l"/>
+    <completion string="uk-flex-first@xl"/>
+    <completion string="uk-flex-last@xl"/>
+
+    <completion string="uk-flex-none"/>
+    <completion string="uk-flex-auto"/>
+
+    <completion string="uk-flex-1"/>
+    <completion string="uk-margin"/>
+
+    <completion string="uk-margin"/>
+    <completion string="uk-margin-top"/>
+    <completion string="uk-margin-bottom"/>
+    <completion string="uk-margin-left"/>
+    <completion string="uk-margin-right"/>
+
+    <completion string="uk-margin-small"/>
+    <completion string="uk-margin-small-top"/>
+    <completion string="uk-margin-small-bottom"/>
+    <completion string="uk-margin-small-left"/>
+    <completion string="uk-margin-small-right"/>
+
+    <completion string="uk-margin-medium"/>
+    <completion string="uk-margin-medium-top"/>
+    <completion string="uk-margin-medium-bottom"/>
+    <completion string="uk-margin-medium-left"/>
+    <completion string="uk-margin-medium-right"/>
+
+    <completion string="uk-margin-large"/>
+    <completion string="uk-margin-large-top"/>
+    <completion string="uk-margin-large-bottom"/>
+    <completion string="uk-margin-large-left"/>
+    <completion string="uk-margin-large-right"/>
+
+    <completion string="uk-margin-xlarge"/>
+    <completion string="uk-margin-xlarge-top"/>
+    <completion string="uk-margin-xlarge-bottom"/>
+    <completion string="uk-margin-xlarge-left"/>
+    <completion string="uk-margin-xlarge-right"/>
+
+    <completion string="uk-margin-auto"/>
+    <completion string="uk-margin-auto-top"/>
+    <completion string="uk-margin-auto-bottom"/>
+    <completion string="uk-margin-auto-left"/>
+    <completion string="uk-margin-auto-right"/>
+    <completion string="uk-margin-auto-vertical"/>
+
+    <completion string="uk-margin-auto@s"/>
+    <completion string="uk-margin-auto-left@s"/>
+    <completion string="uk-margin-auto-right@s"/>
+    <completion string="uk-margin-auto@m"/>
+    <completion string="uk-margin-auto-left@m"/>
+    <completion string="uk-margin-auto-right@m"/>
+    <completion string="uk-margin-auto@l"/>
+    <completion string="uk-margin-auto-left@l"/>
+    <completion string="uk-margin-auto-right@l"/>
+    <completion string="uk-margin-auto@xl"/>
+    <completion string="uk-margin-auto-left@xl"/>
+    <completion string="uk-margin-auto-right@xl"/>
+
+    <completion string="uk-margin-remove"/>
+    <completion string="uk-margin-remove-top"/>
+    <completion string="uk-margin-remove-bottom"/>
+    <completion string="uk-margin-remove-left"/>
+    <completion string="uk-margin-remove-right"/>
+    <completion string="uk-margin-remove-vertical"/>
+    <completion string="uk-margin-remove-adjacent"/>
+    <completion string="uk-margin-remove-first-child"/>
+    <completion string="uk-margin-remove-last-child"/>
+    <completion string="uk-margin-remove-left@s"/>
+    <completion string="uk-margin-remove-right@s"/>
+    <completion string="uk-margin-remove-left@m"/>
+    <completion string="uk-margin-remove-right@m"/>
+    <completion string="uk-margin-remove-left@l"/>
+    <completion string="uk-margin-remove-right@l"/>
+    <completion string="uk-margin-remove-left@xl"/>
+    <completion string="uk-margin-remove-right@xl"/>
+
+    <completion string="uk-padding"/>
+    <completion string="uk-padding-small"/>
+    <completion string="uk-padding-large"/>
+
+    <completion string="uk-padding-remove"/>
+    <completion string="uk-padding-remove-top"/>
+    <completion string="uk-padding-remove-bottom"/>
+    <completion string="uk-padding-remove-left"/>
+    <completion string="uk-padding-remove-right"/>
+    <completion string="uk-padding-remove-vertical"/>
+    <completion string="uk-padding-remove-horizontal"/>
+
+    <completion string="uk-position-top"/>
+    <completion string="uk-position-bottom"/>
+    <completion string="uk-position-left"/>
+    <completion string="uk-position-right"/>
+    <completion string="uk-position-top-left"/>
+    <completion string="uk-position-top-right"/>
+    <completion string="uk-position-bottom-left"/>
+    <completion string="uk-position-bottom-right"/>
+    <completion string="uk-position-center"/>
+    <completion string="uk-position-center-left"/>
+    <completion string="uk-position-center-right"/>
+    <completion string="uk-position-center-left-out"/>
+    <completion string="uk-position-center-right-out"/>
+    <completion string="uk-position-top-center,"/>
+    <completion string="uk-position-bottom-center"/>
+    <completion string="uk-position-top-center"/>
+    <completion string="uk-position-bottom-center"/>
+    <completion string="uk-position-cover"/>
+
+    <completion string="uk-position-small"/>
+    <completion string="uk-position-medium"/>
+    <completion string="uk-position-large"/>
+
+    <completion string="uk-position-relative"/>
+    <completion string="uk-position-absolute"/>
+    <completion string="uk-position-fixed"/>
+    <completion string="uk-position-sticky"/>
+
+    <completion string="uk-position-z-index"/>
+    <completion string="uk-position-z-index-zero"/>
+    <completion string="uk-position-z-index-negative"/>
+    <completion string="uk-position-z-index-high"/>
+
+    <completion string="uk-hidden"/>
+    <completion string="uk-hidden@s"/>
+    <completion string="uk-hidden@m"/>
+    <completion string="uk-hidden@l"/>
+    <completion string="uk-hidden@xl"/>
+
+    <completion string="uk-invisible"/>
+    <completion string="uk-visible@s"/>
+    <completion string="uk-visible@m"/>
+    <completion string="uk-visible@l"/>
+    <completion string="uk-visible@xl"/>
+
+    <completion string="uk-hidden-touch"/>
+
+    <completion string="uk-card"/>
+    <completion string="uk-card-body"/>
+    <completion string="uk-card-header"/>
+    <completion string="uk-card-footer"/>
+    <completion string="uk-card-title"/>
+    <completion string="uk-card-badge"/>
+    <completion string="uk-card-hover"/>
+    <completion string="uk-card-default"/>
+    <completion string="uk-card-primary"/>
+    <completion string="uk-card-secondary"/>
+
+    <completion string="uk-card-small"/>
+    <completion string="uk-card-large"/>
+    
+    <completion string="uk-icon"/>
+
+    <completion string="uk-icon-link"/>
+    <completion string="uk-icon-button"/>
+    <completion string="uk-range"/>
+    <completion string="uk-input"/>
+    <completion string="uk-select"/>
+    <completion string="uk-textarea"/>
+    <completion string="uk-radio"/>
+    <completion string="uk-checkbox"/>
+    <completion string="uk-form-small"/>
+    <completion string="uk-form-large"/>
+    <completion string="uk-form-danger"/>
+    <completion string="uk-form-success"/>
+    <completion string="uk-form-width-xsmall"/>
+    <completion string="uk-form-width-small"/>
+    <completion string="uk-form-width-medium"/>
+    <completion string="uk-form-width-large"/>
+    <completion string="uk-radio"/>
+    <completion string="uk-checkbox"/>
+
+    <completion string="uk-button"/>
+    <completion string="uk-button-default"/>
+    <completion string="uk-button-primary"/>
+    <completion string="uk-button-secondary"/>
+    <completion string="uk-button-danger"/>
+    <completion string="uk-button-small"/>
+    <completion string="uk-button-large"/>
+    <completion string="uk-button-text"/>
+    <completion string="uk-button-link"/>
+    <completion string="uk-button-group"/>
+
+  </set>
+</completions>
